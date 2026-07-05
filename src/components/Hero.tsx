@@ -167,15 +167,7 @@ const Hero: React.FC = () => {
               </div>
             </a>
 
-            <a
-              href="#about"
-              className="group relative overflow-hidden px-8 py-3 rounded-full border border-white/10 bg-white/5 backdrop-blur-md transition-all duration-500 hover:border-primary-500/50 active:scale-95"
-            >
-              <span className="relative z-10 text-[11px] font-bold tracking-[0.2em] uppercase text-white group-hover:text-neutral-900 transition-colors duration-500">
-                Learn More
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-500 translate-y-[101%] group-hover:translate-y-0 transition-transform duration-500 ease-out" />
-            </a>
+           
           </motion.div>
         </motion.div>
       </div>

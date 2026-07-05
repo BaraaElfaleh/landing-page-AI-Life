@@ -104,19 +104,7 @@ const Header: React.FC = () => {
         </nav>
 
         {/* DESKTOP ACTIONS (without social icons) */}
-        <div className="hidden md:flex items-center gap-6">
-          {/* Get a Quote Button with Fill Effect */}
-          <a
-            href="#contact"
-            onClick={(e) => handleLinkClick(e, '#contact')}
-            className="group relative overflow-hidden px-6 py-2.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md transition-all duration-500 hover:border-primary-400/50 active:scale-95"
-          >
-            <span className="relative z-10 text-[10px] font-bold tracking-[0.2em] uppercase text-white group-hover:text-neutral-900 transition-colors duration-500">
-              Get a Quote
-            </span>
-            <div className="absolute inset-0 bg-primary-400 translate-y-[101%] group-hover:translate-y-0 transition-transform duration-500 ease-out" />
-          </a>
-        </div>
+       
 
         {/* MOBILE HAMBURGER */}
         <button

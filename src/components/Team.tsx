@@ -7,7 +7,7 @@ const teamData = [
     name: 'Anas Elfaleh',
     role: 'Backend Engineer',
     img: 'https://media.licdn.com/dms/image/v2/D5603AQF1pISASY6uhg/profile-displayphoto-scale_400_400/B56Z4XQbioH8Ak-/0/1778506646609?e=1784764800&v=beta&t=NHoUMerhl5vjFHHXhdXmowizZhsp0Z9KKTVtpRsFtiI', // استبدلها بالصورة الفعلية
-    desc: 'Expert in building scalable recommendation systems and deploying machine learning pipelines.',
+    desc: '"Senior Backend Developer specialized in building scalable, secure, and maintainable server-side solutions. Expert in leveraging modern tech stacks to engineer efficient data pipelines and high-concurrency systems.',
   },
   {
     name: 'Othman Shbeir',
