@@ -10,7 +10,7 @@ const servicesData = [
     desc: 'Hybrid engines blending collaborative filtering, content analysis, and popularity signals for personalized discovery.',
   },
   {
-    icon: <FaSearch />,
+    icon: <FaSearch />, 
     title: 'Retrieval-Augmented Generation',
     desc: 'Enhance LLMs with live external knowledge retrieval for precise, context‑aware answers.',
   },
