@@ -88,15 +88,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
           className="relative w-20 h-20 mt-16 ml-auto rounded-full border border-white/10 overflow-hidden shadow-2xl shadow-primary-500/10 lg:w-[45%] lg:h-full lg:mt-0 lg:ml-0 lg:rounded-none lg:border-0 lg:overflow-visible"
         >
-          <img
-            src="../../public/Code_Generated_Image.png"
-            alt="AI Life"
-            className="object-cover lg:object-contain object-top lg:object-right w-full h-full"
-            style={{
-              maskImage: 'linear-gradient(to top, transparent 0%, black 20%)',
-              WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 20%)',
-            }}
-          />
+         
           <div className="absolute inset-0 lg:hidden bg-gradient-to-tr from-primary-500/20 to-transparent pointer-events-none" />
         </motion.div>
       </div>

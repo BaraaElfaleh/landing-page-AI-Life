@@ -6,7 +6,7 @@ const teamData = [
   {
     name: 'Anas Elfaleh',
     role: 'Backend Engineer',
-    img: '../../public/photo_2026-07-05_13-37-24.jpg', // استبدلها بالصورة الفعلية
+    img: 'https://media.licdn.com/dms/image/v2/D5603AQF1pISASY6uhg/profile-displayphoto-scale_400_400/B56Z4XQbioH8Ak-/0/1778506646609?e=1784764800&v=beta&t=NHoUMerhl5vjFHHXhdXmowizZhsp0Z9KKTVtpRsFtiI', // استبدلها بالصورة الفعلية
     desc: 'Expert in building scalable recommendation systems and deploying machine learning pipelines.',
   },
   {
