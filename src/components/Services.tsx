@@ -77,15 +77,7 @@ const ServiceCard: React.FC<{ service: typeof servicesData[0] }> = ({ service })
         </div>
         <h4 className="text-xl font-bold text-white mb-2">{service.title}</h4>
         <p className="text-neutral-400 flex-1">{service.desc}</p>
-        {isHovered && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="mt-4 text-primary-400 text-sm font-semibold tracking-wider"
-          >
-            EXPLORE →
-          </motion.div>
-        )}
+        
       </div>
     </motion.div>
   );
